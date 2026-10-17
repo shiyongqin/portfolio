@@ -1,18 +1,5 @@
 'use strict';
 
-const roleContent = {
-  data: { description: '从指标体系与分析工具切入，定位业务机会，验证产品改动。', label: '推荐先看：百度网盘路径优化 ↗', href: '#baidu' },
-  strategy: { description: '从人群分层与激励机制切入，衡量收益、成本与长期留存。', label: '推荐先看：Kwai 创作者激励策略 ↗', href: '#kwai' }
-};
-document.querySelectorAll('[data-role]').forEach(button => button.addEventListener('click', () => {
-  const role = button.dataset.role;
-  if (!Object.hasOwn(roleContent, role)) return;
-  document.querySelectorAll('[data-role]').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
-  document.querySelector('#role-description').textContent = roleContent[role].description;
-  document.querySelector('#role-case-link').textContent = roleContent[role].label;
-  document.querySelector('#role-case-link').setAttribute('href', roleContent[role].href);
-}));
-
 const screens = {
   home: { name: '首页', title: '先知道，今天要做什么。', description: '首页聚焦今日待办和值日，把最常用的行动入口放在眼前。', alt: '元气小家首页：集中呈现今日待办与值日', index: '01' },
   bills: { name: '账单', title: '费用有记录，对账更清楚。', description: '公共费用与分摊确认放在同一处，关键金额和状态直接呈现。', alt: '元气小家账单页：待确认金额、记录公共费用与电费列表', index: '02' },
