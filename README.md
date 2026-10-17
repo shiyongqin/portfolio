@@ -4,7 +4,7 @@
 
 ## GitHub Pages
 
-网站地址（启用 Pages 后）：https://shiyongqin.github.io/portfolio/
+网站地址：https://shiyongqin.github.io/portfolio/
 
 进入 Settings → Pages，Source 选择 Deploy from a branch，Branch 选择 main，Folder 选择 / (root)，点击 Save。
 
@@ -16,4 +16,8 @@
 - assets/：产品界面截图与图标
 - .nojekyll：直接发布静态文件
 
-本仓库包含网页与图片素材，独立 PDF 文档不包含在公开版本中。
+本仓库包含网页、图片素材及公开下载的校招简历。
+
+## 简历
+
+[查看或下载校招简历](assets/shiyongqin-resume.pdf)
