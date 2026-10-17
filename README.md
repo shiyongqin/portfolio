@@ -6,7 +6,7 @@
 
 网站地址：https://shiyongqin.github.io/portfolio/
 
-进入 Settings → Pages，Source 选择 Deploy from a branch，Branch 选择 main，Folder 选择 / (root)，点击 Save。
+进入 Settings → Pages，Source 选择 Deploy from a branch，Branch 选择 main，Folder 选择 /docs，点击 Save。
 
 ## 文件结构
 
@@ -21,3 +21,7 @@
 ## 简历
 
 [查看或下载校招简历](assets/shiyongqin-resume.pdf)
+
+## 发布目录
+
+GitHub Pages 当前使用 main 分支的 `/docs` 目录，已放入完整网站与公开简历。后续发布内容请同步更新该目录。
